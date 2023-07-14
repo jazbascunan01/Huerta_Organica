@@ -1132,7 +1132,7 @@ p.red {
 -------------------------PIÉ DE PÁGINA---------------------------------
 ---------------------------------------------------------------------*/
 footer {
-    background-color: rgb(21, 14, 55);
+    background-color: rgb(14 55 55);
 }
 
 .redes {
@@ -1140,7 +1140,7 @@ footer {
     display: flex;
     justify-content: center;
     /*Alinear horizontalmente*/
-    border-top: 5px solid #22777b;
+    border-top: 5px solid #3bb868;
 }
 
 .red {
@@ -1153,7 +1153,7 @@ footer {
     display: flex;
     justify-content: center;
     /*Alinear horizontalmente*/
-    background-color: rgb(16, 11, 42);
+    background-color: rgb(11 42 38);
 }
 
 
@@ -1762,7 +1762,7 @@ footer {
         display: flex;
         flex-direction: row;
         background: black;
-        border-bottom: 5px solid #6ca9d3;
+        border-bottom: 5px solid #6cd3a3;
         padding-left: 0;
         margin: 0px;
         justify-content: space-between;
@@ -1773,7 +1773,7 @@ footer {
         list-style: none;
         padding: 17px;
         text-transform: uppercase;
-        background-color: #00192a;
+        background-color: #102a00;
 
     }
 

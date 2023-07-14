@@ -3,7 +3,7 @@
     <article class="contenido">
         <!--gran contenedor para  todo el contenido de la pagina web-->
         <article class="primer_imagen_de_fondo">
-            <h2>Huerta Orgánica</h2>
+            <h2>Venta de plantas</h2>
             <!--fondo de huerta-->
         </article>
 

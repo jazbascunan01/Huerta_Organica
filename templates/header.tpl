@@ -47,10 +47,10 @@
                     src="{BASE_URL}images/395-3953291_vacation-house-check-form-new-home-builder-icon.png"
                     alt="logo home"><a href="{BASE_URL}home" class="route" id="home">Home</a></li>
             <li class="item"><img class="logo_nav" id="nav_destinos" src="{BASE_URL}images/logo_productos.png"
-                    alt="logo plantas"><a href="{BASE_URL}tours" class="route" id="destino">Productos</a></li>
+                    alt="logo plantas"><a href="{BASE_URL}productos" class="route" id="destino">Productos</a></li>
 
             <li class="item"><img class="logo_nav" id="nav_tipos" src="{BASE_URL}images/logo_categorias.png"
-                    alt="logo tipos"><a href="{BASE_URL}cruceros" class="route" id="tipos_de_viajes">Categorías</a></li>
+                    alt="logo tipos"><a href="{BASE_URL}categorias" class="route" id="tipos_de_viajes">Categorías</a></li>
             <li class="item" id="nosotros"><img class="logo_nav" id="nav_nosotros"
                     src="{BASE_URL}images/logo_de_nosotross.png" alt="logo nosotros"><a class="route" id="nosotross"
                     href="{BASE_URL}Nosotros">Nosotros</a> </li>

@@ -12,4 +12,9 @@ class CategoriasView
         $this->smarty->assign('categorias', $categorias);
         $this->smarty->display('templates/home.tpl'); // muestro el template    
     }
+    function mostrar_categoria($categorias)
+    {
+        $this->smarty->assign('categorias', $categorias);
+        $this->smarty->display('templates/categorias.tpl'); // muestro el template    
+    }
 }

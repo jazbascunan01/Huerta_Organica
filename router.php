@@ -19,15 +19,18 @@ switch ($partesURL[0]) {
         $categoriasc->show_home();
         break;
     case 'categorias':
-        echo ("En construccion");
+        $categoriasc->show();
         break;
     case 'productos':
-        echo ("En construccion");
+        $productosc->show();
         break;
     case 'nosotros':
         echo ("En construccion");
         break;
     case 'contacto':
         echo ("En construccion");
+        break;
+    case 'filtrar':
+        $productosc->filtrar();
         break;
 }

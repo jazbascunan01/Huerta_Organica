@@ -16,4 +16,17 @@ class CategoriasModel
         $categorias = $query->fetchAll(PDO::FETCH_OBJ);
         return $categorias;
     }
+    function getcategoriass()
+    {
+        $query = $this->db->prepare('SELECT * FROM categorias');
+        $query->execute();
+        $categorias = $query->fetchAll(PDO::FETCH_OBJ);
+        
+        $indexedCategorias = array();
+        foreach ($categorias as $categoria) {
+            $indexedCategorias[$categoria->ID] = $categoria;
+        }
+        
+        return $indexedCategorias;
+    }
 }
