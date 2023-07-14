@@ -8,7 +8,7 @@
         jardín. </h4>
 
     <form method="POST" action="filtrar" class="formfilter">
-        <label class="labelfiltro" for="crucero">Seleccionar Crucero:</label>
+        <label class="labelfiltro" for="crucero">Seleccionar Categoría:</label>
         <select class="selectfiltro" name="filtro" id="crucero">
             <option value="All">Todos los productos</option>
             {foreach from=$categorias item=categoria}

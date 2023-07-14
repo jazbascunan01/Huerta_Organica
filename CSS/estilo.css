@@ -92,7 +92,7 @@ p {
 header {
     display: flex;
     width: 100%;
-    height: 90px;
+    height: 79px;
     margin: 0px;
     background-color: #94f894;
     background-size: 100% 100%;
@@ -113,12 +113,13 @@ header {
 }
 
 .logotipo {
-    height: 60%;
+
+    width: 80%;
 }
 
 .navigation {
     background: black;
-    border-bottom: 5px solid #6ca9d3;
+    border-bottom: 5px solid #6cd3a3;
     /*Borde inferior*/
     padding-left: 0;
     margin: 0px;
@@ -131,13 +132,13 @@ a {
 
 .item:hover {
     /*Al pasar el cursor por encima*/
-    background: #6ca9d3;
+    background: #6cd3a3;
     font-size: 130%;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
 }
 
 .selected {
-    background: #6ca9d3;
+    background: #6cd3a3;
 }
 
 span.slogan {
@@ -145,7 +146,7 @@ span.slogan {
     padding: 17px;
     text-transform: uppercase;
     /*Convertir en mayúscula*/
-    background-color: #00192a;
+    background-color: #102a00;
     width: 100%;
     font-size: 10px;
     text-align: center;
@@ -187,7 +188,7 @@ span.slogan {
 }
 
 .menu_desplegable {
-    border-bottom: 5px solid #6ca9d3;
+    border-bottom: 5px solid #6cd3a3;
     width: 100%;
     display: flex;
     background-color: black;
@@ -440,7 +441,7 @@ figure.contenedor_fig .siguiente:hover {
 
 .selectfiltro {
     font-size: small;
-    width: 10%;
+    width: 50%;
     height: auto;
     padding: 0.2%;
     margin: 0px;
@@ -448,7 +449,7 @@ figure.contenedor_fig .siguiente:hover {
 }
 
 .buttonfiltro {
-    width: 5%;
+    width: 10%;
     font-size: smaller;
     display: flex;
     justify-content: center;
@@ -1185,13 +1186,17 @@ footer {
         height: 70%;
     }
 
-    header {
-        height: 100px;
-    }
+
 
     /*---------------------------------------------------------------------
     ----------------------------CONTENIDO----------------------------------
     ---------------------------------------------------------------------*/
+    .selectfiltro {
+        width: 30%;
+    }
+    .buttonfiltro {
+        width: 8%;
+    }
     button#paginado_anterior,
     /*Botones de anterior y siguiente para el paginado*/
     button#paginado_siguiente {
@@ -1275,15 +1280,16 @@ footer {
         height: 68%;
     }
 
-    header {
-        height: 100px;
-    }
+
 
 
 
     /*---------------------------------------------------------------------
     ----------------------------CONTENIDO----------------------------------
     ---------------------------------------------------------------------*/
+    .selectfiltro {
+        width: 25%;
+    }
     .primer_imagen_de_fondo {
         /* Páginas ADMINISTRADOR, HOME, NOSOTROS, OFERTAS */
         height: 280px;
@@ -1389,9 +1395,7 @@ footer {
     /*---------------------------------------------------------------------
     ---------------------------ENCABEZADO----------------------------------
     ---------------------------------------------------------------------*/
-    header {
-        height: 120px;
-    }
+
 
     .btn_menu a {
         font-size: 15px;
@@ -1550,6 +1554,12 @@ footer {
     /*---------------------------------------------------------------------
     ----------------------------CONTENIDO----------------------------------
     ---------------------------------------------------------------------*/
+    .selectfiltro {
+        width: 20%;
+    }
+    .buttonfiltro {
+        width: 5%;
+    }
 
     .recuadros {
         /* De las páginas HOME y DESTINOS */
@@ -1789,6 +1799,9 @@ footer {
     /*---------------------------------------------------------------------
     ----------------------------CONTENIDO----------------------------------
     ---------------------------------------------------------------------*/
+    .selectfiltro {
+        width: 10%;
+    }
     .primer_imagen_de_fondo {
         /* Páginas HOME, ADMINISTRADOR, NOSOTROS, OFERTAS */
         height: 460px;

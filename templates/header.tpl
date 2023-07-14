@@ -20,7 +20,7 @@
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin="">
     </script>
-    <script src="{BASE_URL}script/main.js"></script>
+    <script src="{BASE_URL}JS/main.js"></script>
     <link rel="stylesheet" href="{BASE_URL}CSS/estilo.css"><!-- Estilo de css -->
     <title>Huerta Orgánica</title>
 </head>
