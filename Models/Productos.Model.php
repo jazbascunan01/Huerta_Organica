@@ -34,4 +34,12 @@ class productosModel
             return null; // ID no encontrado en la base de datos
         }
     }
+
+    function getids($id)
+    {
+        $query = $this->db->prepare('SELECT ID FROM productos WHERE id_categoria = ?');
+        $query->execute([$id]);
+        $ids = $query->fetchAll(PDO::FETCH_COLUMN); // Obtener un arreglo de IDs
+        return $ids;
+    }
 }

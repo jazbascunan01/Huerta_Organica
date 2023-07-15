@@ -17,4 +17,15 @@ class CategoriasView
         $this->smarty->assign('categorias', $categorias);
         $this->smarty->display('templates/categorias.tpl'); // muestro el template    
     }
+
+    function mostrar_cat($categoria, $producto)
+    {
+        if (isset($categoria->descripcion)) {
+            $this->smarty->assign('cat', $categoria);
+            $this->smarty->assign('productos', $producto);
+            $this->smarty->display('templates/categoria.tpl');
+        } else {
+            echo "La categoria no existe o no tiene una descripción válida.";
+        }
+    }
 }

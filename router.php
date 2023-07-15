@@ -21,6 +21,9 @@ switch ($partesURL[0]) {
     case 'categorias':
         $categoriasc->show();
         break;
+    case 'categoria':
+        $categoriasc->showCategoria($partesURL[1]);
+        break;
     case 'productos':
         $productosc->show();
         break;
