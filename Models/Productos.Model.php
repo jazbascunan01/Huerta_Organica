@@ -23,4 +23,15 @@ class productosModel
         $productos = $query->fetchAll(PDO::FETCH_OBJ);
         return $productos;
     }
+    function getproducto($id)
+    {
+        $query = $this->db->prepare('SELECT * FROM productos WHERE ID = ?');
+        $query->execute([$id]);
+        $producto = $query->fetch(PDO::FETCH_OBJ);
+        if ($query->rowCount() > 0) {
+            return $producto;
+        } else {
+            return null; // ID no encontrado en la base de datos
+        }
+    }
 }

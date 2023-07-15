@@ -24,6 +24,9 @@ switch ($partesURL[0]) {
     case 'productos':
         $productosc->show();
         break;
+    case 'producto':
+        $productosc->showProducto($partesURL[1]);
+        break;
     case 'nosotros':
         echo ("En construccion");
         break;

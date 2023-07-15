@@ -59,4 +59,11 @@ class ProductosController
         }
 
     }
+    public function showProducto($id)
+    {
+        $producto = $this->model->getproducto($id);
+        $categoria_id = $producto->id_categoria;
+        $categoria = $this->categoriascontroller->getModel()->getcategoria($categoria_id);
+        $this->view->mostrar_producto($producto, $categoria);
+    }
 }

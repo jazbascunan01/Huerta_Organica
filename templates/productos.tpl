@@ -29,7 +29,7 @@
                     <h4 class="link_tour">{$producto->Producto}</h4>
                 </a>
                 <p>{$producto->descripcion}</p>
-                <a class="link_tour" type="submit" href="tour/{$producto->ID}">Leer más</a>
+                <a class="link_tour" type="submit" href="producto/{$producto->ID}">Leer más</a>
             </section>
         {{/foreach}}
     </article>

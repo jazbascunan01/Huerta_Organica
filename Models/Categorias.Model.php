@@ -29,4 +29,12 @@ class CategoriasModel
         
         return $indexedCategorias;
     }
+
+    function getcategoria($id)
+    {
+        $query = $this->db->prepare('SELECT * FROM categorias WHERE ID = ?');
+        $query->execute([$id]);
+        $categoria = $query->fetch(PDO::FETCH_OBJ);
+        return $categoria;
+    }
 }

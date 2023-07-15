@@ -471,17 +471,24 @@ figure.contenedor_fig .siguiente:hover {
     margin: 2%;
 }
 
-.fotos_destino_tour,
-.fotos_crucero {
+.fotos_destino_tour, .fotos_crucero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 3%;
+    width: 80%;
 }
+
+.fotos_destino_tour img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
 
 .foto_1tour,
 .foto_1crucero {
-    height: 400px;
+    height: auto;
     margin: 20px;
     border-radius: 30%;
     box-shadow: 7px 13px 37px #000;

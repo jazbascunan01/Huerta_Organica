@@ -29,4 +29,14 @@ class ProductosView
         $this->smarty->assign('productos', $productos);
         $this->smarty->display('templates/productos.tpl');
     }
+    function mostrar_producto($producto, $categoria)
+    {
+        if (isset($producto->descripcion)) {
+            $this->smarty->assign('producto', $producto);
+            $this->smarty->assign('categoria', $categoria);
+            $this->smarty->display('templates/producto.tpl');
+        } else {
+            echo "El producto no existe o no tiene una descripción válida.";
+        }
+    }
 }
