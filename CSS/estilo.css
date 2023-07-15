@@ -480,7 +480,7 @@ figure.contenedor_fig .siguiente:hover {
     width: 80%;
 }
 
-.fotos_destino_tour img {
+.fotos_destino_tour img, .fotos_crucero img {
     max-width: 100%;
     margin-bottom: 10px;
 }
@@ -1415,6 +1415,10 @@ footer {
     /*---------------------------------------------------------------------
     ----------------------------CONTENIDO----------------------------------
     ---------------------------------------------------------------------*/
+    .fotos_destino_tour img, .fotos_crucero img {
+        max-width: 45%;
+        margin: 2% 1%;
+    }
     .primer_imagen_de_fondo {
         /* De las páginas ADMINISTRADOR, HOME, NOSOTROS y OFERTAS */
         height: 340px;
