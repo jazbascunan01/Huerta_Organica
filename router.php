@@ -42,4 +42,7 @@ switch ($partesURL[0]) {
     case 'Nosotros':
         $categoriasc->showNosotros();
         break;
+    case 'Contactos':
+        $categoriasc->showContactos();
+        break;
 }
