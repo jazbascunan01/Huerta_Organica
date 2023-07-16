@@ -69,8 +69,12 @@ h4 {
     font-size: 20px;
     margin-top: 5%;
     margin-bottom: 2%;
-    /*Margen inferior*/
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
+}
+.justify{
+    text-align: justify;
 }
 
 .contenedor div h4 {
@@ -470,6 +474,29 @@ figure.contenedor_fig .siguiente:hover {
     align-items: center;
     margin: 2%;
 }
+hr{
+    margin: 0% 3%;
+}
+.precio {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.precio h5 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.precio p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #000;
+    text-align: center;
+}
+
+
 
 .fotos_destino_tour, .fotos_crucero {
     display: flex;
