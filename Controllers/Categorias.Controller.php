@@ -50,4 +50,9 @@ class CategoriasController
 
         $this->view->mostrar_cat($categoria, $productos);
     }
+
+    public function showNosotros()
+    {
+        $this->view->showNosotros();
+    }
 }

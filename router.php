@@ -39,4 +39,7 @@ switch ($partesURL[0]) {
     case 'filtrar':
         $productosc->filtrar();
         break;
+    case 'Nosotros':
+        $categoriasc->showNosotros();
+        break;
 }
