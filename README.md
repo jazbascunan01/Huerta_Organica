@@ -80,8 +80,7 @@ El proyecto Huerta Orgánica ofrece una solución en línea para facilitar la ad
 
 ## Instalación<a name="instalacion"></a>
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/huerta-organica.git`
-2. Configura la base de datos MySQL en el archivo `config.php`.
+1. Clona el repositorio: `git clone https://github.com/jazbascunan01/Huerta_Organica.git`
 3. Importa el archivo de la base de datos `database.sql`.
 4. Configura tu servidor web para que el directorio raíz apunte a la carpeta del proyecto.
 5. Asegúrate de tener instalado PHP y MySQL en tu entorno de desarrollo.
