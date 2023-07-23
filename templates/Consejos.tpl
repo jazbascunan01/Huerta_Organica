@@ -7,5 +7,6 @@
     <figure class="fig_consejos">
         <img class="img_consejos" src="{BASE_URL}images/Recurso16.png" alt="agencia de viajes">
     </figure>
+</article>
     <p>la agricultura lunar se basa en la creencia de que la luna influye en el crecimiento de las plantas y que, al sembrar y cosechar siguiendo las fases lunares, podemos aprovechar mejor esta influencia para obtener cultivos más abundantes y saludables.</p>
 {include file="footer.tpl"}
