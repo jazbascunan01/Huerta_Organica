@@ -34,8 +34,14 @@ class CategoriasView
     {
         $this->smarty->display('Nosotros.tpl');
     }
+    
     public function showContactos()
     {
         $this->smarty->display('Contactos.tpl');
+    }
+
+    public function showConsejos()
+    {
+        $this->smarty->display('Consejos.tpl');
     }
 }

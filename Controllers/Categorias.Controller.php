@@ -59,4 +59,8 @@ class CategoriasController
     {
         $this->view->showContactos();
     }
+    public function showConsejos()
+    {
+        $this->view->showConsejos();
+    }
 }

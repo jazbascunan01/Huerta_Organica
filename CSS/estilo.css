@@ -266,6 +266,15 @@ ul.navigation li a {
 /*---------------------------------------------------------------------
 ----------------------------CONTENIDO----------------------------------
 ---------------------------------------------------------------------*/
+.fig_consejos{
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img_consejos{
+    max-width: 90%;
+}
 .reed{
     color: white;
 }

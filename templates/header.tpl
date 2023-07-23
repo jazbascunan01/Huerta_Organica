@@ -50,7 +50,12 @@
                     alt="logo plantas"><a href="{BASE_URL}productos" class="route" id="destino">Productos</a></li>
 
             <li class="item"><img class="logo_nav" id="nav_tipos" src="{BASE_URL}images/logo_categorias.png"
-                    alt="logo tipos"><a href="{BASE_URL}categorias" class="route" id="tipos_de_viajes">Categorías</a></li>
+                    alt="logo tipos"><a href="{BASE_URL}categorias" class="route" id="tipos_de_viajes">Categorías</a>
+            </li>
+
+            <li class="item"><img class="logo_nav" id="nav_tipos" src="{BASE_URL}images/logo_consejos.png"
+                    alt="logo tipos"><a href="{BASE_URL}consejos" class="route" id="tipos_de_viajes">Consejos</a>
+            </li>
             <li class="item" id="nosotros"><img class="logo_nav" id="nav_nosotros"
                     src="{BASE_URL}images/logo_de_nosotross.png" alt="logo nosotros"><a class="route" id="nosotross"
                     href="{BASE_URL}Nosotros">Nosotros</a> </li>
