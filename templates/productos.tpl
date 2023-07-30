@@ -1,7 +1,8 @@
 {include file="header.tpl"}
 <div id="content">
     <h2>Descubre nuestras increibles plantas</h2>
-    <h4 class="justify">Descubre un vivero lleno de maravillas vegetales donde podrás explorar una amplia variedad de plantas. Sumérgete
+    <h4 class="justify">Descubre un vivero lleno de maravillas vegetales donde podrás explorar una amplia variedad de
+        plantas. Sumérgete
         en una experiencia única mientras te adentras en este fascinante mundo verde. En nuestro vivero, encontrarás una
         diversidad de especies y podrás aprender sobre la belleza y singularidad de cada una. Disfruta de un ambiente
         tranquilo y lleno de vida, donde podrás conectarte con la naturaleza y crear un espacio acogedor en tu hogar o
@@ -24,7 +25,7 @@
     <article class="recuadros">
         {foreach from=$productos item=$producto}
             <section class="recuadro">
-                <img class="foto_menu" src={$producto->img1} alt="Paisaje de montañas">
+                <img class="foto_menu" src="data:image/jpeg;base64,{$producto->img1_base64}" alt="Imagen 1">
                 <a class="link_tour" type="submit" href="producto/{$producto->ID}">
                     <h4 class="link_tour">{$producto->Producto}</h4>
                 </a>
