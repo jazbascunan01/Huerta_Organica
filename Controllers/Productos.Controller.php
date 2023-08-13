@@ -66,4 +66,5 @@ class ProductosController
         $categoria = $this->categoriascontroller->getModel()->getcategoria($categoria_id);
         $this->view->mostrar_producto($producto, $categoria);
     }
+    
 }

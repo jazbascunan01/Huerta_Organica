@@ -2,8 +2,8 @@
 <section class="crucero">
     <h2>{$cat->nombre}</h2>
     <div class="fotos_crucero">
-        <img class="foto_1crucero" src="{$cat->img1}" alt="imagen del crucero">
-        <img class="foto_1crucero" src="{$cat->img2}" alt="imagen del crucero">
+        <img class="foto_1crucero" src="data:image/jpeg;base64,{$producto->img1_base64}" alt="Imagen 1">
+        <img class="foto_1crucero" src="data:image/jpeg;base64,{$producto->img2_base64}" alt="Imagen 1">
     </div>
     <h6 class="crucero_detalles">
         {$cat->detalles}

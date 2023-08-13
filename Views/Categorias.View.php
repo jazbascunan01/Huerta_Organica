@@ -21,6 +21,14 @@ class CategoriasView
     function mostrar_cat($categoria, $producto)
     {
         if (isset($categoria->descripcion)) {
+            $img1Base64 = base64_encode($categoria->img1);
+            $img2Base64 = base64_encode($categoria->img2);
+
+            // Asignar las imágenes codificadas en base64 a variables adicionales
+            $categoria->img1_base64 = $img1Base64;
+            $categoria->img2_base64 = $img2Base64;
+            $this->smarty->assign('img1Base64', $img1Base64);
+            $this->smarty->assign('img2Base64', $img2Base64);
             $this->smarty->assign('cat', $categoria);
             $this->smarty->assign('productos', $producto);
             $this->smarty->display('templates/categoria.tpl');
@@ -28,6 +36,7 @@ class CategoriasView
             echo "La categoria no existe o no tiene una descripción válida.";
         }
     }
+
 
 
     public function showNosotros()
