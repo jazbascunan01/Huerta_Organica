@@ -9,7 +9,8 @@
         {foreach from=$categorias item=$categoria}
 
             <section class="recuadro">
-                <img class="foto_menu" src={$categoria->img1} alt="Paisaje de montañas">
+                <img class="foto_menu" src="data:image/jpeg;base64,{$categoria->img1_base64}"
+                    alt="Paisaje de montañas">
                 <a class="link_tour" type="submit" href="categoria/{$categoria->ID}"><h4>{$categoria->nombre}</h4></a>
                 <p>{$categoria->descripcion}</p>
                 <a class="link_tour" type="submit" href="categoria/{$categoria->ID}">Leer más</a>

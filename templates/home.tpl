@@ -58,7 +58,8 @@
                 {foreach from=$categorias item=$categoria}
 
                     <section class="recuadro">
-                        <img class="foto_menu" src={$categoria->img1} alt="Paisaje de montañas">
+                        <img class="foto_menu" src="data:image/jpeg;base64,{$categoria->img1_base64}"
+                            alt="Paisaje de montañas">
                         <h4>{$categoria->nombre}</h4>
                         <p>{$categoria->descripcion}
                         </p>
